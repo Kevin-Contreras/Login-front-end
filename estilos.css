@@ -134,10 +134,11 @@ top: 50px;
     color:rgba(0, 0, 0, 0);
   }
   @media only screen and (max-width:500px) {
-    img{
-      position: absolute;
-      width: 99%;
-
+    #d{
+      visibility: hidden;
     }
+   body{
+     background: #fcfcfc;
+   }
     
 }
